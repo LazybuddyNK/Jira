@@ -1,0 +1,489 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Problem/Incident),Outward issue link (Problem/Incident),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Affected services),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Link),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Satisfaction rating,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Work category),Custom field ([CHART] Date of First Response),Comment,Status Category
+First page button in the pagination function properly.,RET-121,10127,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 11:21 AM,18/Feb/22 3:50 PM,18/Feb/22 3:47 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/[Customer Searches Report|http://retailm1.upskills.in/admin/index.php?route=report/customer_search&token=d690981wFnhpVCtAidjyzz8A4gOTC7Sc]
+* Move to the bottom of the page.
+* Then move to any other page than the first page.
+* Click on the first page button.
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* The first page button is not redirecting to the first page.",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000r3:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Telephone field is accepting blank spaces.,RET-120,10126,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 11:11 AM,18/Feb/22 3:50 PM,18/Feb/22 11:29 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Telephone field with only white spaces.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+
+
+*Actual Output:*
+
+* The form gets submitted Successfully",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000qv:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Telephone field is accepting value less than the actual telephone number.,RET-119,10125,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 11:07 AM,18/Feb/22 3:50 PM,18/Feb/22 11:28 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Telephone field with less than the actual telephone Number.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* The form gets submited Successfully",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000qn:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Postcode field is submitting alphanumeric value.,RET-118,10124,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 11:00 AM,18/Feb/22 3:50 PM,18/Feb/22 11:34 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Postcode field with alphanumeric input.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* The form gets submitted successfully.",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000qf:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Amount Field is submitting alphanumeric value ,RET-117,10123,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 10:54 AM,18/Feb/22 3:50 PM,18/Feb/22 11:28 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to Transactions tab.
+* Fill Amount field with alphanumeric values.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* The form gets submitted successfully.",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000q7:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Telephone field should accept only the numeric value.,RET-116,10122,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 10:35 AM,18/Feb/22 3:50 PM,18/Feb/22 11:26 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Telephone field with alphanumeric input.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* The form gets submitted successfully ",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,18/Feb/22 10:32 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-050255.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10009/image-20220218-050255.png,,,,,,,{},,,,0|i000pz:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Commission field submits alphanumeric data.,RET-115,10121,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 10:29 AM,18/Feb/22 3:50 PM,18/Feb/22 11:25 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to Payment Details tab.
+* Fill Cheque Payee Name with a blank space.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* On entering alphanumeric data in the commission field and submitting it doesn’t give any error.",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000pr:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Submitting Telephone field with special character is allowed,RET-114,10120,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 10:20 AM,18/Feb/22 3:50 PM,18/Feb/22 11:22 AM,,,0,,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Name fields with a HTML tag.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* Telephone field is submitting special character successfully.",nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000pj:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+HTML tag gets submitted as a Name field.,RET-113,10119,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 10:11 AM,18/Feb/22 3:50 PM,18/Feb/22 11:34 AM,,,0,,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Name fields with a HTML tag.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* After submitting the form with a HTML tag in Name field, it gets submitted succesfully.",nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,RET-1,RET-42,,,,,,,,,,,,,,,,,,{},,,,0|i000p7:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Cheque Payee Name field submits a blank field successfully which is a mandatory field.,RET-112,10118,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,18/Feb/22 9:58 AM,18/Feb/22 3:50 PM,18/Feb/22 11:22 AM,,,0,,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to Payment Details tab.
+* Fill Cheque Payee Name with a blank space.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Actual Output:*
+
+* No error message is shown and the form gets submitted successfully.",nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,RET-78,RET-1,,,,,,,,,,,,,,,,,,{},,,,0|i000pb:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Check if by clicking on the very last page redirects to the last page,RET-111,10117,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:23 PM,18/Feb/22 2:37 PM,18/Feb/22 2:34 PM,18/Feb/22 2:37 PM,,0,"*Steps to reproduce:*
+
+* Navigate to Home/[Customer Searches Report|http://retailm1.upskills.in/admin/index.php?route=report/customer_search&token=d690981wFnhpVCtAidjyzz8A4gOTC7Sc]
+* Move to the bottom of the page.
+* Then move to any other page than the first page.
+* Click on the last page button.
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+* !image-20220218-054952.png|width=610,height=119!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,18/Feb/22 2:34 PM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-054952.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10015/image-20220218-054952.png,,,,,,,{},,,,0|i000p3:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if by clicking on the very first page button redirects to the first page,RET-110,10116,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:23 PM,18/Feb/22 2:34 PM,18/Feb/22 3:48 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/[Customer Searches Report|http://retailm1.upskills.in/admin/index.php?route=report/customer_search&token=d690981wFnhpVCtAidjyzz8A4gOTC7Sc]
+* Move to the bottom of the page.
+* Then move to any other page than the first page.
+* Click on the first page button.
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+* !image-20220218-054952.png|width=610,height=119!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,RET-121,,,,,,,,,,18/Feb/22 11:20 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-054952.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10014/image-20220218-054952.png,,,,,,,{},,,,0|i000ov:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if by clicking on any page number it redirects to that page,RET-109,10115,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:23 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000on:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+The valid page number must be displayed on the opened page,RET-108,10114,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:23 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000of:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+On the last page the next button must be disabled,RET-107,10113,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:23 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000o7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+On the first page the previous button must be disabled,RET-106,10112,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:23 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000nz:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+when the next button is clicked it must redirect to next page,RET-105,10111,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:23 PM,18/Feb/22 9:36 AM,18/Feb/22 9:36 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000nr:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+When previous button is clicked it must redirect to previous page,RET-104,10110,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000nj:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+The pagination displayed must contain previous and next clickable links.,RET-103,10109,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:36 AM,21/Feb/22 9:56 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000nb:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+The Default count of records on the page must be checked,RET-102,10108,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000n3:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Validate search rules defined for “Similar Match” with the search key word,RET-101,10107,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:36 AM,21/Feb/22 9:56 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000mv:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Validate search rules defined for “Exact Match” with the search key word,RET-100,10106,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000mn:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Water text should be provided for user to understand what to search,RET-99,10105,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000mf:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Total number of search records/results should be displayed on page,RET-98,10104,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000m7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+After clicking Search field - search history should be displayed (latest search keyword),RET-97,10103,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000lz:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"When user clicks on any link from result and navigates back, then result should be maintained",RET-96,10102,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000lr:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+There should be pre-defined search criteria for auto complete e.g. after typing first 3 letter it should suggest matching keyword,RET-95,10101,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000lj:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+When user start typing word in text box it should suggest words that matches typed keyword,RET-94,10100,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000lb:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Application should not crash if user inserted % in search field,RET-93,10099,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000l3:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+% sign in search keyword should not redirect to 404 ERROR,RET-92,10098,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000kv:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"Check if the form accepts the valid month, date, year in mm/dd/yy format.",RET-91,10097,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000kn:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check that user able to change the date or not once select from date picker.,RET-90,10096,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000kf:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"Click on the date field, select the date, and verify if the correct date is shown in the box.",RET-89,10095,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:36 AM,21/Feb/22 9:56 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000k7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the calendar component allows 10 years forward and backward to select the dates.,RET-88,10094,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000jz:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if today’s date is highlighted or not for the default selection of the date box.,RET-87,10093,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000jr:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the calendar component allows scrolling month field forward and backward.,RET-86,10092,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000jj:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"Check on click out side of the date picker, the date picker is closing or not.",RET-85,10091,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000jb:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"Check on selecting the date from the date picker, the date picker is closed or not.",RET-84,10090,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000j3:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the calendar component loads properly after a click on any date box.,RET-83,10089,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000iv:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check the user is able to select the date from the date picker.,RET-82,10088,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:36 AM,21/Feb/22 9:56 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000in:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check the calendar component is active when the date boxes are clicked.,RET-81,10087,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000if:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if Add Tracnsaction buttons adds to the trasaction,RET-80,10086,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 9:36 AM,21/Feb/22 9:56 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000i7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if only numberic Value is allowed in Amount field,RET-79,10085,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 2:37 PM,18/Feb/22 2:37 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to Transactions tab.
+* Fill Amount field with alphanumeric values.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-052208.png|width=434,height=86!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,RET-117,,,,,,,,,,18/Feb/22 10:52 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-052208.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10010/image-20220218-052208.png,,,,,,,{},,,,0|i000hz:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if Cheque Payee Name doesn't submits black space.,RET-78,10084,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 10:04 AM,18/Feb/22 2:38 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to Payment Details tab.
+* Fill Cheque Payee Name with a blank space.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-042605.png|width=932,height=70!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-1,,,,,,,,,,,,18/Feb/22 9:56 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-042605.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10004/image-20220218-042605.png,,,,,,,{},,,,0|i000hr:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if Cheque Payee Name accepts only alphabets,RET-77,10083,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:22 PM,18/Feb/22 2:39 PM,18/Feb/22 2:38 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to Payment Details tab.
+* Fill Cheque Payee Name with numeric values.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-042605.png|width=932,height=70!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,18/Feb/22 2:39 PM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-042605.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10016/image-20220218-042605.png,,,,,,,{},,,,0|i000hj:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if after clicking radio buttons the method type changes,RET-76,10082,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:36 AM,21/Feb/22 9:56 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000hb:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if radio buttons under Payment Method are clickable.,RET-75,10081,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:35 AM,21/Feb/22 9:56 AM,18/Feb/22 9:35 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000h3:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if Commission field accepts only numeric data.,RET-74,10080,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 2:40 PM,18/Feb/22 2:39 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to Payment Details tab.
+* Fill Cheque Payee Name with a blank space.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-045433.png|width=475,height=114!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,RET-115,,,,,,,,,,18/Feb/22 10:24 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-045433.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10007/image-20220218-045433.png,,,,,,,{},,,,0|i000gv:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if all the required list are present in the dropdown.,RET-73,10079,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000gn:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if dropdown of Region field is showing the list,RET-72,10078,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000gf:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if all the required list are present in the dropdown.,RET-71,10077,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000g7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if dropdown of Country field is showing the list,RET-70,10076,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:39 AM,21/Feb/22 9:56 AM,18/Feb/22 9:39 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000fz:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if only numberic Value is allowed in Postcode,RET-69,10075,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 2:40 PM,18/Feb/22 2:40 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Postcode field with alphanumeric input.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-052713.png|width=410,height=102!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,RET-118,,,,,,,,,,,,,,18/Feb/22 10:57 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-052713.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10011/image-20220218-052713.png,,,,,,,{},,,,0|i000fr:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if alphanumeric string is allowed in City field,RET-68,10074,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000fj:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if alphanumeric string is allowed in Address 2 field,RET-67,10073,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000fb:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if alphanumeric string is allowed in Address 1 field,RET-66,10072,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000f3:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if valid website is entered in Website field,RET-65,10071,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:30 AM,18/Feb/22 2:41 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000ev:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if alphanumeric string is allowed in Website field,RET-64,10070,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:39 AM,21/Feb/22 9:56 AM,18/Feb/22 9:39 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000en:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if alphanumeric string is allowed in Company field,RET-63,10069,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000ef:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the status dropdown contains all the required fields.,RET-62,10068,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000e7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the status dropdown is working or not,RET-61,10067,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000dz:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the confirm password field matchs with the password field.,RET-60,10066,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000dr:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check the password field by entering the space.,RET-59,10065,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 2:47 PM,18/Feb/22 2:43 PM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Password and Confirm Password fields with blank spaces.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-091646.png|width=692,height=147!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,18/Feb/22 2:46 PM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-091646.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10017/image-20220218-091646.png,,,,,,,{},,,,0|i000dj:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check that when the user types the password it gets encrypted or not.,RET-58,10064,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000db:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check that user is able to enter the password in the text box,RET-57,10063,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000d3:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify tracking code field should accept alphanumeric value,RET-56,10062,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000cv:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify correct mobile number is saved in the database or not by click on the Save or Next button.,RET-55,10061,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000cn:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify by adding only the spaces in the Telephone Field.,RET-54,10060,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 11:29 AM,18/Feb/22 11:08 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Telephone field with only Spaces.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+* !image-20220218-053919.png|width=453,height=126!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,RET-120,,,,,,,,,,,,,,18/Feb/22 11:11 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-053919.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10013/image-20220218-053919.png,,,,,,,{},,,,0|i000cf:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Verify an error message shown for the blank input for the Mobile Number Field.,RET-53,10059,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000c7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify by entering the less number than the actual mobile number.,RET-52,10058,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 11:29 AM,18/Feb/22 11:02 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Telephone field with less than the actual telephone Number.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-053617.png|width=453,height=126!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,RET-119,,,,,,,,,,18/Feb/22 11:06 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-053617.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10012/image-20220218-053617.png,,,,,,,{},,,,0|i000bz:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Verify Telephone field should accept only the numeric value by entering the special character.,RET-51,10057,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 11:25 AM,18/Feb/22 10:23 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Name fields with a HTML tag.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+* !image-20220218-044820.png|width=453,height=126!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,RET-114,,,,,,,,,,18/Feb/22 10:18 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-044820.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10006/image-20220218-044820.png,,,,,,,{},,,,0|i000br:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Verify Telephone field should accept only the numeric value by entering alphabets.,RET-50,10056,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 11:26 AM,18/Feb/22 10:30 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Telephone field with alphanumeric input.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-050240.png|width=453,height=126!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,RET-116,,,,,,,,,,18/Feb/22 10:32 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-050240.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10008/image-20220218-050240.png,,,,,,,{},,,,0|i000bj:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Add a valid mobile number and verify the field should accept the correct mobile number.,RET-49,10055,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:21 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000bb:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify that the Telephone field should display the accepted format of the Telephone as the placeholder text for user assistance.,RET-48,10054,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:29 AM,21/Feb/22 9:56 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000b3:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Verify trailing dot in the email id text box is invalid.,RET-47,10053,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000av:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify leading dot in the email id text box is invalid.,RET-46,10052,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:39 AM,21/Feb/22 9:56 AM,18/Feb/22 9:39 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000an:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify email id can contain a plus sign.,RET-45,10051,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:38 AM,21/Feb/22 9:56 AM,18/Feb/22 9:38 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000af:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify email id can contain a dot in the subdomain field.,RET-44,10050,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:37 AM,21/Feb/22 9:56 AM,18/Feb/22 9:37 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i000a7:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify email id can contain a dot in the address field.,RET-43,10049,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:36 AM,18/Feb/22 9:36 AM,18/Feb/22 9:36 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0009z:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check by entering ”HTML tag” and click save button.,RET-42,10048,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 10:12 AM,18/Feb/22 10:23 AM,,,0,"*Steps to reproduce:*
+
+* Navigate to Home/Affiliates/Add.
+* Move to General tab.
+* Fill Name fields with a HTML tag.
+* Then Save the Form
+
+*Expected Output:*
+
+* An error message should appear regarding invalid input.
+
+*Screenshot:*
+
+!image-20220218-043801.png|width=697,height=178!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,RET-1,,,,,,,,,,,,18/Feb/22 10:08 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220218-043801.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10005/image-20220218-043801.png,,,,,,,{},,,,0|i0009r:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check for numeric characters only.,RET-41,10047,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:29 AM,21/Feb/22 9:56 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0009j:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check Max-Min character limit of text box.,RET-40,10046,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:34 AM,21/Feb/22 9:56 AM,18/Feb/22 9:34 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0009b:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check the text box is blank or not by default.,RET-39,10045,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:29 AM,21/Feb/22 9:56 AM,18/Feb/22 9:29 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i00093:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify the Name field with Special characters,RET-38,10044,Test,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:29 AM,21/Feb/22 9:56 AM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0008v:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Check if all the tabs under Add Affiliate page is working,RET-37,10043,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:28 AM,21/Feb/22 9:56 AM,18/Feb/22 9:28 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0008n:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if Add button is taking us to Add Affiliate page,RET-36,10042,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:28 AM,18/Feb/22 9:28 AM,18/Feb/22 9:28 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0008f:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"Check if the form accepts the valid month, date, year in mm/dd/yy format.",RET-35,10041,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:28 AM,21/Feb/22 9:56 AM,18/Feb/22 9:28 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i00087:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check that user able to change the date or not once select from date picker.,RET-34,10040,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:28 AM,21/Feb/22 9:56 AM,18/Feb/22 9:28 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0007z:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"Click on the date field, select the date, and verify if the correct date is shown in the box.",RET-33,10039,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:28 AM,21/Feb/22 9:56 AM,18/Feb/22 9:28 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0007r:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the calendar component allows 10 years forward and backward to select the dates.,RET-32,10038,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:28 AM,21/Feb/22 9:56 AM,18/Feb/22 9:28 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0007j:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if today’s date is highlighted or not for the default selection of the date box.,RET-31,10037,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:28 AM,21/Feb/22 9:56 AM,18/Feb/22 9:28 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0007b:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the calendar component allows scrolling month field forward and backward.,RET-30,10036,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i00073:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"Check on click out side of the date picker, the date picker is closing or not.",RET-29,10035,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0006v:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"heck on selecting the date from the date picker, the date picker is closed or not.",RET-28,10034,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0006n:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check if the calendar component loads properly after a click on any date box.,RET-27,10033,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0006f:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check the user is able to select the date from the date picker.,RET-26,10032,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i00067:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Check the calendar component is active when the date boxes are clicked.,RET-25,10031,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0005z:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify that returned results can be sorted.,RET-24,10030,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0005r:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Validate filtering is optional and not required.,RET-23,10029,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:20 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0005j:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify search results before applying filters are accurate and complete.,RET-22,10028,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0005b:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify unselecting the filter area collapses the filter.,RET-21,10027,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i00053:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify clicking the filter dropdown expands the filter.,RET-20,10026,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0004v:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Validate search rules defined for “Similar Match” with the search key word,RET-19,10025,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0004n:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Validate search rules defined for “Exact Match” with the search key word,RET-18,10024,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0004f:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Water text should be provided for user to understand what to search,RET-17,10023,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i00047:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Total number of search records/results should be displayed on page,RET-16,10022,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0003z:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+After clicking Search field - search history should be displayed (latest search keyword),RET-15,10021,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,17/Feb/22 1:55 PM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0003r:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+"When user clicks on any link from result and navigates back, then result should be maintained",RET-14,10020,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:27 AM,21/Feb/22 9:56 AM,18/Feb/22 9:27 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0003j:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+There should be pre-defined search criteria for auto complete e.g. after typing first 3 letter it should suggest matching keyword,RET-13,10019,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:25 AM,21/Feb/22 9:56 AM,18/Feb/22 9:25 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0003b:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+When user start typing word in text box it should suggest words that matches typed keyword,RET-12,10018,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:25 AM,21/Feb/22 9:56 AM,18/Feb/22 9:25 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i00033:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Application should not crash if user inserted % in search field,RET-11,10017,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:25 AM,21/Feb/22 9:56 AM,18/Feb/22 9:25 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0002v:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+% sign in search keyword should not redirect to 404 ERROR,RET-10,10016,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:24 AM,21/Feb/22 9:56 AM,18/Feb/22 9:24 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0002n:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify the Search results displayed should be relevant to search keyword,RET-9,10015,Test,Done,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,Done,,,nitesh kumar,620b303cef2bd5006ae8ba0d,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,16/Feb/22 9:19 PM,18/Feb/22 9:25 AM,18/Feb/22 9:40 AM,18/Feb/22 9:25 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0002f:,,,,,RET Sprint 1,,,,,,,,,,,,Done
+Verify Password with valid credentials,RET-7,10013,Test,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,16/Feb/22 10:19 AM,18/Feb/22 2:54 PM,16/Feb/22 11:11 PM,,,0,,,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0001s:i,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Verify Username with valid credentials,RET-6,10012,Test,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,16/Feb/22 10:19 AM,18/Feb/22 2:54 PM,16/Feb/22 10:19 AM,,,0,,,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,0|i0001s:,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Search for Customer search results using filter.,RET-5,10011,Story,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,15/Feb/22 2:09 PM,18/Feb/22 9:24 AM,17/Feb/22 12:24 PM,,,0,"*Steps to Reproduce:*
+
+* Navigate to Home/[Customer Searches Report|http://retailm1.upskills.in/admin/index.php?route=report/customer_search&token=5iDP8fCvBdclGLn8wnzBmORO9a4bpcnS]
+* Fill the required fields under the filter section to search for a specific Customer Searches Report
+* After selecting the required fields click filter to get the results.
+
+
+
+*Expected Output:*
+
+* According to the selections result should be shown.
+
+*Screenshot:*
+
+!image-20220217-065645.png|width=1428,height=288!",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,17/Feb/22 12:26 PM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220217-065645.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10002/image-20220217-065645.png,,,,,,,{},,,,0|i0001r:i,,,,,RET Sprint 1,,,,,,,,,,,"17/Feb/22 12:24 PM;620b303cef2bd5006ae8ba0d;*Steps to Reproduce:*
+
+* Navigate to Home/Affiliates
+* Fill the required fields under the filter section to search for a specific Affiliate 
+* After selecting the required fields click filter to get the results.
+
+
+
+*Expected Output:*
+
+* According to the selections result should be shown.
+
+*Screenshot:*",In Progress
+Register is not working,RET-4,10010,Bug,To Do,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,15/Feb/22 12:42 PM,18/Feb/22 2:54 PM,15/Feb/22 12:42 PM,,,0,"Steps:
+
+…………..
+
+!image-20220215-071151.png|width=164,height=52!",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,15/Feb/22 12:42 PM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220215-071151.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10000/image-20220215-071151.png,,,,,,,{},,,,0|i0001r:r,,,,,RET Sprint 1,,,,,,,,,,,,To Do
+Pagination works perfectly.,RET-3,10009,Story,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,15/Feb/22 11:28 AM,18/Feb/22 2:34 PM,17/Feb/22 12:28 PM,,,0,"*Steps to Reproduce:*
+
+* Navigate to Home/[Customer Searches Report|http://retailm1.upskills.in/admin/index.php?route=report/customer_search&token=5iDP8fCvBdclGLn8wnzBmORO9a4bpcnS].
+* At the bottum of the Page Pagination should appear.
+
+*Actual Output:*
+
+* By clicking on any page number buttons it should navigate to that Page.
+* Next, Previous, First and Last Page buttons should redirect to the specified Page.
+
+
+
+*Screenshot:*
+
+!image-20220217-070000.png|width=483,height=90!",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,RET-121,RET-110,,,,,,,,,17/Feb/22 12:35 PM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220217-070000.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10003/image-20220217-070000.png,,,,,,,{},,,,0|i0001r:9,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Search for Affiliates using filter options.,RET-2,10008,Story,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,15/Feb/22 11:27 AM,18/Feb/22 9:24 AM,17/Feb/22 12:23 PM,,,0,"*Steps to Reproduce:*
+
+* Navigate to Home/Affiliates
+* Fill the required fields under the filter section to search for a specific Affiliate 
+* After selecting the required fields click filter to get the results.
+
+
+
+*Expected Output:*
+
+* According to the selections result should be shown.
+
+*Screenshot:*
+
+!image-20220217-052118.png|width=1420,height=286!",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,,,,,,,,,,,,,,,17/Feb/22 10:51 AM;ug:1b7a4829-1848-41cb-aa91-ce9808b1655c;image-20220217-052118.png;https://ibmhaldia-nk.atlassian.net/secure/attachment/10001/image-20220217-052118.png,,,,,,,{},,,,0|i0001r:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
+Add New Affiliate,RET-1,10007,Story,In Progress,RET,Retail,software,nitesh kumar,620b303cef2bd5006ae8ba0d,,Medium,,,,nitesh kumar,620b303cef2bd5006ae8ba0d,nitesh kumar,620b303cef2bd5006ae8ba0d,15/Feb/22 11:27 AM,18/Feb/22 2:47 PM,18/Feb/22 3:34 PM,,,0,"*Steps to Reproduce:*
+
+* Navigate to Home/ Affiliates.
+* Click on Add button on top-right.
+* Add Affiliate page should appear fill all the mandatory fields and click on save button.
+
+*Expected Output:*
+
+* All the details entered should be added to the Affiliates List.
+* If any of the fields doesn’t meet there criteria then the form should not be submitted.",,nitesh kumar,620b303cef2bd5006ae8ba0d,,,,,,,,,RET-118,RET-120,,,RET-114,RET-115,RET-116,RET-117,RET-119,RET-79,RET-77,RET-74,RET-69,RET-59,,,,,,,,{},,,,0|i0001j:,,,,,RET Sprint 1,,,,,,,,,,,,In Progress
